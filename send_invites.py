@@ -14,13 +14,13 @@ import datetime
 from datetime import date
 
 
-API_KEY = 'IUbgWKOy5DcLF_tFLqM76A'															# Mandrill API key
-JSON_KEY = json.load(open('/Users/thomasleung/Downloads/Landed-f6a6a26fd105.json'))			# Google Sheets JSON key
-INVITE_TEMPLATE = 'owner-invite'															# Invite email template
-EMAIL = 2																					# Email column in table
-INVITE_SENT = 4																				# Invite_Sent column in table
-INVITE_DATE = 5																				# Invite_Date column in table
-SIGNED_UP = 9																				# Signed_Up column in table
+API_KEY = 'IUbgWKOy5DcLF_tFLqM76A'		# Mandrill API key
+JSON_KEY = json.load(open('/Users/thomasleung/Downloads/Landed-f6a6a26fd105.json'))		# Google Sheets JSON key
+INVITE_TEMPLATE = 'owner-invite'		# Invite email template
+EMAIL = 2			# Email column in table
+INVITE_SENT = 4		# Invite_Sent column in table
+INVITE_DATE = 5		# Invite_Date column in table
+SIGNED_UP = 9		# Signed_Up column in table
 
 
 # Returns a list of email addresses of owners who have requested an invitation,

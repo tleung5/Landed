@@ -13,15 +13,15 @@ import datetime
 from datetime import date
 
 
-API_KEY = 'IUbgWKOy5DcLF_tFLqM76A'															# Mandrill API key
-JSON_KEY = json.load(open('/Users/thomasleung/Downloads/Landed-f6a6a26fd105.json'))			# Google Sheets JSON key
-FIRST_REMINDER_TEMPLATE = 'onboarding-first-reminder'										# First reminder email template
-SECOND_REMINDER_TEMPLATE = 'onboarding-second-reminder'										# First reminder email template
-FIRST_REMINDER = 3																			# Number of days after invite for first reminder
-SECOND_REMINDER = 7																			# Number of days after invite for second reminder
-EMAIL = 2																					# Email column in table
-INVITE_SENT = 4																				# Invite_Sent column in table
-INVITE_DATE = 5																				# Invite_Date column in table
+API_KEY = 'IUbgWKOy5DcLF_tFLqM76A'			# Mandrill API key
+JSON_KEY = json.load(open('/Users/thomasleung/Downloads/Landed-f6a6a26fd105.json'))		# Google Sheets JSON key
+FIRST_REMINDER_TEMPLATE = 'onboarding-first-reminder'		# First reminder email template
+SECOND_REMINDER_TEMPLATE = 'onboarding-second-reminder'		# Second reminder email template
+FIRST_REMINDER = 3		# Number of days after invite for first reminder
+SECOND_REMINDER = 7		# Number of days after invite for second reminder
+EMAIL = 2				# Email column in table
+INVITE_SENT = 4			# Invite_Sent column in table
+INVITE_DATE = 5			# Invite_Date column in table
 
 
 # Returns a list of email addresses of owners who have not completed the onboarding
